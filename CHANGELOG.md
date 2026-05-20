@@ -17,6 +17,7 @@
 
 ### Internal
 
+* ⬆ Bump esbuild from 0.27.7 to 0.28.0 in the npm-packages group. PR [#156](https://github.com/fastapi/fastapi-vscode/pull/156) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Configure Dependabot to group updates and update weekly. PR [#154](https://github.com/fastapi/fastapi-vscode/pull/154) by [@YuriiMotov](https://github.com/YuriiMotov).
 * ⬆ Bump sinon from 21.1.2 to 22.0.0. PR [#151](https://github.com/fastapi/fastapi-vscode/pull/151) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/labeler from 6.0.1 to 6.1.0. PR [#150](https://github.com/fastapi/fastapi-vscode/pull/150) by [@dependabot[bot]](https://github.com/apps/dependabot).
