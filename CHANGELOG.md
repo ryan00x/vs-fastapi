@@ -17,6 +17,7 @@
 
 ### Internal
 
+* 👷 Configure Dependabot to group updates and update weekly. PR [#154](https://github.com/fastapi/fastapi-vscode/pull/154) by [@YuriiMotov](https://github.com/YuriiMotov).
 * ⬆ Bump sinon from 21.1.2 to 22.0.0. PR [#151](https://github.com/fastapi/fastapi-vscode/pull/151) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/labeler from 6.0.1 to 6.1.0. PR [#150](https://github.com/fastapi/fastapi-vscode/pull/150) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔒️ Only allow team members to modify dependencies. PR [#153](https://github.com/fastapi/fastapi-vscode/pull/153) by [@svlandeg](https://github.com/svlandeg).
