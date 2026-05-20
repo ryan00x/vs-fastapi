@@ -12,6 +12,7 @@
 
 ### Docs
 
+* 📝 Update security policy. PR [#155](https://github.com/fastapi/fastapi-vscode/pull/155) by [@tiangolo](https://github.com/tiangolo).
 * 🍱  Update walkthrough assets and copy for legibility. PR [#147](https://github.com/fastapi/fastapi-vscode/pull/147) by [@savannahostrowski](https://github.com/savannahostrowski).
 
 ### Internal
