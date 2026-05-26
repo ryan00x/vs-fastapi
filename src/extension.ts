@@ -3,7 +3,7 @@
  */
 
 import * as vscode from "vscode"
-import { discoverFastAPIApps } from "./appDiscovery"
+import { type DiscoveryStats, discoverFastAPIApps } from "./appDiscovery"
 import { ApiService } from "./cloud/api"
 import { AUTH_PROVIDER_ID, CloudAuthenticationProvider } from "./cloud/auth"
 import { LOGS_VIEW_ID, LogsViewProvider } from "./cloud/commands/logs"
@@ -70,7 +70,13 @@ export async function activate(context: vscode.ExtensionContext) {
   // Initialize telemetry
   await initVSCodeTelemetry(context)
 
-  let apps: Awaited<ReturnType<typeof discoverFastAPIApps>> = []
+  let apps: AppDefinition[] = []
+  let stats: DiscoveryStats = {
+    detection_method_config: 0,
+    detection_method_pyproject: 0,
+    detection_method_heuristic: 0,
+    folders_with_apps: 0,
+  }
   let success = true
 
   try {
@@ -108,7 +114,9 @@ export async function activate(context: vscode.ExtensionContext) {
 
   try {
     // Discover apps and create providers
-    apps = await discoverFastAPIApps(parserService, true)
+    const result = await discoverFastAPIApps(parserService)
+    apps = result.apps
+    stats = result.stats
   } catch (error) {
     success = false
     trackActivationFailed(error, "discovery")
@@ -128,6 +136,7 @@ export async function activate(context: vscode.ExtensionContext) {
     routers_count: countRouters(apps),
     apps_count: apps.length,
     workspace_folder_count: vscode.workspace.workspaceFolders?.length ?? 0,
+    ...stats,
   })
 
   // Create grouping function that groups by workspace folder if there are multiple folders
@@ -173,7 +182,7 @@ export async function activate(context: vscode.ExtensionContext) {
     if (refreshTimeout) clearTimeout(refreshTimeout)
     refreshTimeout = setTimeout(async () => {
       if (!parserService) return
-      const newApps = await discoverFastAPIApps(parserService)
+      const { apps: newApps } = await discoverFastAPIApps(parserService)
 
       if (uri) {
         await testIndex.invalidateFile(uri.toString())
@@ -236,7 +245,7 @@ export async function activate(context: vscode.ExtensionContext) {
     // Auth provider must be registered regardless of workspace,
     // so sign-in works from command palette and Accounts menu in vscode.dev
     const authProvider = new CloudAuthenticationProvider(context, apiService)
-    authProvider.startWatching()
+    await authProvider.startWatching()
 
     context.subscriptions.push(
       { dispose: () => authProvider.dispose() },
@@ -425,7 +434,7 @@ function registerCommands(
       async () => {
         if (!parserService) return
         clearImportCache()
-        const newApps = await discoverFastAPIApps(parserService)
+        const { apps: newApps } = await discoverFastAPIApps(parserService)
         pathOperationProvider.setApps(newApps, groupApps(newApps))
         testToRouteProvider.setApps(newApps)
       },

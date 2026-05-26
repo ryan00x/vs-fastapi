@@ -1,8 +1,5 @@
 import { client } from "./client"
-import type {
-  ActivationEventProps,
-  EntrypointDetectedEventProps,
-} from "./types"
+import type { ActivationEventProps } from "./types"
 
 export function createTimer(): () => number {
   const start = performance.now()
@@ -13,8 +10,6 @@ export const Events = {
   ACTIVATED: "extension_activated",
   ACTIVATION_FAILED: "extension_activation_failed",
   DEACTIVATED: "extension_deactivated",
-  ENTRYPOINT_DETECTED: "extension_entrypoint_detected",
-  CODELENS_PROVIDED: "extension_codelens_provided",
   CODELENS_CLICKED: "extension_codelens_clicked",
   TREE_VIEW_VISIBLE: "extension_tree_view_visible",
   SEARCH_EXECUTED: "extension_search_executed",
@@ -125,12 +120,6 @@ export function trackActivationFailed(
   })
 }
 
-export function trackEntrypointDetected(
-  props: EntrypointDetectedEventProps,
-): void {
-  client.capture(Events.ENTRYPOINT_DETECTED, { ...props })
-}
-
 export function trackTreeViewVisible(): void {
   client.capture(Events.TREE_VIEW_VISIBLE)
 }
@@ -142,19 +131,6 @@ export function trackSearchExecuted(
   client.capture(Events.SEARCH_EXECUTED, {
     results_count: resultsCount,
     selected,
-  })
-}
-
-export function trackCodeLensProvided(
-  testCallsCount: number,
-  matchedCount: number,
-  type: "test" | "route" = "test",
-): void {
-  client.capture(Events.CODELENS_PROVIDED, {
-    type,
-    test_calls_count: testCallsCount,
-    matched_count: matchedCount,
-    match_rate: testCallsCount > 0 ? matchedCount / testCallsCount : 0,
   })
 }
 
