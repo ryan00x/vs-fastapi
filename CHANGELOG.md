@@ -17,6 +17,7 @@
 
 ### Internal
 
+* 📈 Fix telemetry overcounting and reduce event volume. PR [#157](https://github.com/fastapi/fastapi-vscode/pull/157) by [@savannahostrowski](https://github.com/savannahostrowski).
 * ⬆ Bump esbuild from 0.27.7 to 0.28.0 in the npm-packages group. PR [#156](https://github.com/fastapi/fastapi-vscode/pull/156) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Configure Dependabot to group updates and update weekly. PR [#154](https://github.com/fastapi/fastapi-vscode/pull/154) by [@YuriiMotov](https://github.com/YuriiMotov).
 * ⬆ Bump sinon from 21.1.2 to 22.0.0. PR [#151](https://github.com/fastapi/fastapi-vscode/pull/151) by [@dependabot[bot]](https://github.com/apps/dependabot).
