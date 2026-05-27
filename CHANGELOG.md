@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump zizmorcore/zizmor-action from 0.5.3 to 0.5.6 in the github-actions group. PR [#159](https://github.com/fastapi/fastapi-vscode/pull/159) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔖 Release version 0.2.1. PR [#158](https://github.com/fastapi/fastapi-vscode/pull/158) by [@savannahostrowski](https://github.com/savannahostrowski).
 
 ## 0.2.1
