@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump the github-actions group with 2 updates. PR [#163](https://github.com/fastapi/fastapi-vscode/pull/163) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Setup GH actions workflow to check sources for typos. PR [#160](https://github.com/fastapi/fastapi-vscode/pull/160) by [@YuriiMotov](https://github.com/YuriiMotov).
 * ⬆ Bump tiangolo/latest-changes from 0.4.1 to 0.5.0 in the github-actions group. PR [#161](https://github.com/fastapi/fastapi-vscode/pull/161) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump zizmorcore/zizmor-action from 0.5.3 to 0.5.6 in the github-actions group. PR [#159](https://github.com/fastapi/fastapi-vscode/pull/159) by [@dependabot[bot]](https://github.com/apps/dependabot).
