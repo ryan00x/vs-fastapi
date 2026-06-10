@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Refactors
+
+* ⚡Speed up extension activation . PR [#164](https://github.com/fastapi/fastapi-vscode/pull/164) by [@savannahostrowski](https://github.com/savannahostrowski).
+
 ### Internal
 
 * ⬆ Bump ovsx from 0.10.12 to 1.0.0 in the npm-packages group. PR [#162](https://github.com/fastapi/fastapi-vscode/pull/162) by [@dependabot[bot]](https://github.com/apps/dependabot).
