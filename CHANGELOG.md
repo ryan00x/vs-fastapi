@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Fixes
+
+* 🐛 Exclude .venv and cache dirs from test index scan. PR [#168](https://github.com/fastapi/fastapi-vscode/pull/168) by [@savannahostrowski](https://github.com/savannahostrowski).
+
 ### Refactors
 
 * ⚡Speed up extension activation . PR [#164](https://github.com/fastapi/fastapi-vscode/pull/164) by [@savannahostrowski](https://github.com/savannahostrowski).
