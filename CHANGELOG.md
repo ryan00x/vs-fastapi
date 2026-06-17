@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Internal
+
+* 👷 Automate release process. PR [#170](https://github.com/fastapi/fastapi-vscode/pull/170) by [@savannahostrowski](https://github.com/savannahostrowski).
+
 ## 0.2.2
 
 ### Fixes
