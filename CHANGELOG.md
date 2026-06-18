@@ -4,6 +4,7 @@
 
 ### Refactors
 
+* 🍱 Make walkthrough GIFs ~50% smaller. PR [#175](https://github.com/fastapi/fastapi-vscode/pull/175) by [@savannahostrowski](https://github.com/savannahostrowski).
 * ✅ Assert opened URL by host instead of substring. PR [#174](https://github.com/fastapi/fastapi-vscode/pull/174) by [@savannahostrowski](https://github.com/savannahostrowski).
 * 🔒️ Render cloud logs via DOM instead of HTML strings. PR [#172](https://github.com/fastapi/fastapi-vscode/pull/172) by [@savannahostrowski](https://github.com/savannahostrowski).
 
