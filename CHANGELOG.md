@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Refactors
+
+* 🔒️ Render cloud logs via DOM instead of HTML strings. PR [#172](https://github.com/fastapi/fastapi-vscode/pull/172) by [@savannahostrowski](https://github.com/savannahostrowski).
+
 ### Internal
 
 * 👷 Automate release process. PR [#170](https://github.com/fastapi/fastapi-vscode/pull/170) by [@savannahostrowski](https://github.com/savannahostrowski).
