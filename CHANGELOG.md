@@ -8,6 +8,7 @@
 
 ### Internal
 
+* 🔒️ Disable Bun dependency cache in the publish workflow. PR [#173](https://github.com/fastapi/fastapi-vscode/pull/173) by [@savannahostrowski](https://github.com/savannahostrowski).
 * 👷 Automate release process. PR [#170](https://github.com/fastapi/fastapi-vscode/pull/170) by [@savannahostrowski](https://github.com/savannahostrowski).
 
 ## 0.2.2
