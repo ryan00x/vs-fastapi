@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆️ Group Dependabot updates. PR [#183](https://github.com/fastapi/fastapi-vscode/pull/183) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Update Dependabot ecosystem coverage. PR [#177](https://github.com/fastapi/fastapi-vscode/pull/177) by [@tiangolo](https://github.com/tiangolo).
 
 ## 0.2.3 (2026-06-18)
