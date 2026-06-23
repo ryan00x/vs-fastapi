@@ -8,6 +8,7 @@
 
 ### Internal
 
+* ♻️ Stop vendoring tree-sitter-python grammar. PR [#188](https://github.com/fastapi/fastapi-vscode/pull/188) by [@savannahostrowski](https://github.com/savannahostrowski).
 * ⬆ Bump the bun-packages group across 1 directory with 9 updates. PR [#186](https://github.com/fastapi/fastapi-vscode/pull/186) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆️ Group Dependabot updates. PR [#183](https://github.com/fastapi/fastapi-vscode/pull/183) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Update Dependabot ecosystem coverage. PR [#177](https://github.com/fastapi/fastapi-vscode/pull/177) by [@tiangolo](https://github.com/tiangolo).
