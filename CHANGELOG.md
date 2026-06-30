@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Internal
+
+* ⬆ Bump @vscode/test-cli from 0.0.12 to 0.0.15 in the npm-packages group. PR [#190](https://github.com/fastapi/fastapi-vscode/pull/190) by [@dependabot[bot]](https://github.com/apps/dependabot).
+
 ## 0.2.4 (2026-06-23)
 
 ### Refactors
