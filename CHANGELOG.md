@@ -4,6 +4,7 @@
 
 ### Internal
 
+* 👷 Fix latest-changes checkout target. PR [#195](https://github.com/fastapi/fastapi-vscode/pull/195) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Update latest-changes to 0.6.1. PR [#194](https://github.com/fastapi/fastapi-vscode/pull/194) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump the bun-packages group across 1 directory with 7 updates. PR [#193](https://github.com/fastapi/fastapi-vscode/pull/193) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump the github-actions group with 2 updates. PR [#191](https://github.com/fastapi/fastapi-vscode/pull/191) by [@dependabot[bot]](https://github.com/apps/dependabot).
