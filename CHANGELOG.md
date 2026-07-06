@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Refactors
+
+* ♻️  Make logs entitlements aware. PR [#196](https://github.com/fastapi/fastapi-vscode/pull/196) by [@savannahostrowski](https://github.com/savannahostrowski).
+
 ### Internal
 
 * 👷 Fix latest-changes checkout target. PR [#195](https://github.com/fastapi/fastapi-vscode/pull/195) by [@tiangolo](https://github.com/tiangolo).
