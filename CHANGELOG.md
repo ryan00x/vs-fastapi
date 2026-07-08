@@ -8,6 +8,7 @@
 
 ### Internal
 
+* ⬆ Bump the bun-packages group with 3 updates. PR [#198](https://github.com/fastapi/fastapi-vscode/pull/198) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump crate-ci/typos from 1.47.2 to 1.48.0 in the github-actions group. PR [#197](https://github.com/fastapi/fastapi-vscode/pull/197) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Fix latest-changes checkout target. PR [#195](https://github.com/fastapi/fastapi-vscode/pull/195) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Update latest-changes to 0.6.1. PR [#194](https://github.com/fastapi/fastapi-vscode/pull/194) by [@tiangolo](https://github.com/tiangolo).
