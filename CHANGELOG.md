@@ -8,6 +8,7 @@
 
 ### Internal
 
+* ⬆ Bump the bun-packages group across 1 directory with 4 updates. PR [#204](https://github.com/fastapi/fastapi-vscode/pull/204) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump typescript from 6.0.3 to 7.0.2 in the npm-packages group. PR [#202](https://github.com/fastapi/fastapi-vscode/pull/202) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump the bun-packages group with 4 updates. PR [#201](https://github.com/fastapi/fastapi-vscode/pull/201) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump @types/sinon from 21.0.1 to 22.0.0 in the npm-packages group. PR [#199](https://github.com/fastapi/fastapi-vscode/pull/199) by [@dependabot[bot]](https://github.com/apps/dependabot).
