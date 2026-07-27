@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Internal
+
+* ⬆️ Upgrade latest-changes to 0.7.1. PR [#211](https://github.com/fastapi/fastapi-vscode/pull/211) by [@tiangolo](https://github.com/tiangolo).
+
 ## 0.3.2 (2026-07-27)
 
 ### Internal
