@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump zizmorcore/zizmor-action from 0.6.0 to 0.6.1 in the github-actions group. PR [#215](https://github.com/fastapi/fastapi-vscode/pull/215) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump the bun-packages group with 4 updates. PR [#216](https://github.com/fastapi/fastapi-vscode/pull/216) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump the github-actions group with 3 updates. PR [#213](https://github.com/fastapi/fastapi-vscode/pull/213) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump the bun-packages group with 6 updates. PR [#214](https://github.com/fastapi/fastapi-vscode/pull/214) by [@dependabot[bot]](https://github.com/apps/dependabot).
